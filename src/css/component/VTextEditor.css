@@ -1,0 +1,50 @@
+.ck-rounded-corners .ck.ck-editor__main > .ck-editor__editable,
+.ck.ck-editor__main > .ck-editor__editable.ck-rounded-corners {
+  font-size: 16px;
+  background-color: #fff2ab;
+  color: #4e5b6a;
+  height: 250px;
+  overflow-y: auto;
+}
+.ck.ck-editor__main > .ck-editor__editable:not(.ck-focused) {
+  border: none;
+  outline: none;
+}
+.test .ck-editor__editable.ck-rounded-corners {
+  font-size: 16px;
+  background-color: #fff2ab;
+  color: #4e5b6a;
+  height: 450px;
+  overflow-y: auto;
+}
+.ck-rounded-corners .ck.ck-editor__top .ck-sticky-panel .ck-toolbar,
+.ck.ck-editor__top .ck-sticky-panel .ck-toolbar.ck-rounded-corners {
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+}
+.ck-rounded-corners {
+  border-radius: 10px;
+}
+.ck-toolbar_grouping {
+  padding-left: 510px !important;
+  background-color: #fff2ab !important;
+}
+.text-editor-container {
+  position: absolute;
+}
+.helper-button {
+  position: fixed;
+  top: 33px;
+  right: 190px;
+  z-index: 40;
+  cursor: pointer;
+}
+/* table,
+td,
+th {
+  border: 1px solid;
+}
+
+table {
+  border-collapse: collapse;
+} */

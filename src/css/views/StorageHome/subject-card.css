@@ -1,0 +1,118 @@
+.subject-card_container {
+  width: 315px;
+  height: 200px;
+  border-radius: 11px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  position: relative;
+  box-shadow: 0 3px 20px rgba(90, 125, 141, 0.16);
+}
+.subject-poster {
+  height: 102px;
+  width: 100%;
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
+  overflow: hidden;
+}
+.subject-poster img {
+  width: 100%;
+  height: 102px;
+}
+.subject-tooltip {
+  border-top-left-radius: 11px;
+  width: 130px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #8a6bf6;
+  border-bottom-right-radius: 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 3px 20px rgba(90, 125, 141, 0.16);
+}
+.subject-tooltip span {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+.subject-information {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.exercise-name {
+  color: #4e5b6a;
+  font-weight: 700;
+  font-size: 16px;
+  font-family: MyFont;
+}
+.author {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+.exercise-author {
+  font-size: 16px;
+  color: #4e5b6a;
+}
+.number {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+.number span {
+  color: #4e5b6a;
+}
+.questions-number {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+.exercise-status {
+  border-radius: 5px;
+  padding: 2px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e8e1fd;
+}
+.exercise-status span {
+  font-size: 12px;
+  color: #8a6bf6;
+}
+.intro-name {
+  display: flex;
+  justify-content: space-between;
+}
+.intro-name button {
+  display: flex;
+  cursor: pointer;
+  align-self: flex-end;
+  align-items: end;
+}
+.feature-modal {
+  width: 135px;
+  position: absolute;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 12px;
+  row-gap: 10px;
+  z-index: 3;
+}
+.feature-modal span {
+  font-size: 14px;
+}
+.feature-modal span:hover {
+  font-size: 15px;
+  color: #8a6bf6;
+  font-weight: bold;
+}

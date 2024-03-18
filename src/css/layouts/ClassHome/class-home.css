@@ -1,0 +1,23 @@
+.class-home_container {
+  margin-top: 65px;
+  padding: 24px;
+}
+.class-type {
+  display: flex;
+  align-items: center;
+}
+.class {
+  background-color: white;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: MyFont;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  color: rgba(0, 0, 0, 0.467);
+}
+.class--list {
+  margin-top: 45px;
+  display: flex;
+  column-gap: 25px;
+}

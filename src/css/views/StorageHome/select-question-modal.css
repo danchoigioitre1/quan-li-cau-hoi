@@ -1,0 +1,88 @@
+.select-answer-container {
+  display: flex;
+  padding: 14px 19px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  column-gap: 15px;
+  row-gap: 15px;
+}
+
+/*css cho câu trả lời*/
+.select-answer-button:hover {
+  opacity: 1;
+  transform: scale(1.2);
+}
+.answer-item-container {
+  width: 270px;
+  height: 259px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.title-answer {
+  display: flex;
+  justify-content: space-between;
+}
+.button-group--answer {
+  display: flex;
+}
+.button-group--answer button {
+  background-color: #fff;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 8px;
+  outline: none;
+}
+.alphabet {
+  font-size: 20px;
+  color: #4e5b6a;
+  font-weight: bold;
+}
+.text-area-answer {
+  width: 251px;
+  height: 190px;
+  border-radius: 10px;
+
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+.input--answer {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  resize: none;
+  vertical-align: middle;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #f59ad4;
+  background: white;
+}
+.show-answer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+.show-answer span {
+  color: #4e5b6a;
+  font-size: 17px;
+  font-weight: bolder;
+}
+.select-answer {
+  text-align: center;
+  width: 90%;
+}
+.add-answer--button {
+  margin-right: 680px;
+}
